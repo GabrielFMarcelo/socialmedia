@@ -3,10 +3,10 @@ date_default_timezone_set('Asia/Manila');
 session_start();
 $GLOBALS['config'] = array(
     'mysql'=>array(
-        'host' => '127.0.0.1:3307',
-        'username' =>'root',
-        'password' =>'',
-        'db'=>'footpage'
+        'host' => '109.106.254.194',
+        'username' =>'bsit3567_g3',
+        'password' =>'admin123',
+        'db'=>'bsit3567_group3_socialmedia'
     ),
     'remember'=>array(
         'cookie_name' => 'hash',

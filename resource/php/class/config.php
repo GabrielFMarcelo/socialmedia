@@ -7,7 +7,7 @@ class config{
 
     public function con(){
         try {
-            $this->pdo = new PDO('mysql:host=127.0.0.1:3307;dbname=bsit3567_group3_socialmedia', $this->user, $this->password);
+            $this->pdo = new PDO('mysql:local=109.106.254.194;dbname=bsit3567_group3_socialmedia', $this->user, $this->password);
             } catch (PDOException $e) {
                 die($e->getMessage());
         }
